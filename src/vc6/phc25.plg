@@ -6,13 +6,24 @@
 --------------------Configuration: phc25 - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\charl\AppData\Local\Temp\RSPF055.tmp" with contents
+Creating command line "rc.exe /l 0x411 /fo"Release/win32.res" /i "\Docs\PHC25\src\source\win32" /d "NDEBUG" "D:\Docs\PHC25\src\source\win32\win32.rc"" 
+Creating temporary file "C:\Users\charl\AppData\Local\Temp\RSPC5B7.tmp" with contents
 [
 /nologo /ML /W3 /O2 /Ob2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Docs\PHC25\src\source\common\debug.cpp"
+"D:\Docs\PHC25\src\source\win32\main.cpp"
+"D:\Docs\PHC25\src\source\win32\memory.cpp"
 "D:\Docs\PHC25\src\source\win32\monitor.cpp"
+"D:\Docs\PHC25\src\source\common\fmgen008\psg.cpp"
+"D:\Docs\PHC25\src\source\win32\screen.cpp"
+"D:\Docs\PHC25\src\source\win32\sound.cpp"
+"D:\Docs\PHC25\src\source\win32\system.cpp"
+"D:\Docs\PHC25\src\source\win32\win32.cpp"
+"D:\Docs\PHC25\src\source\common\z80.cpp"
+"D:\Docs\PHC25\src\source\common\z80diag.cpp"
 ]
-Creating command line "cl.exe @C:\Users\charl\AppData\Local\Temp\RSPF055.tmp" 
-Creating temporary file "C:\Users\charl\AppData\Local\Temp\RSPF056.tmp" with contents
+Creating command line "cl.exe @C:\Users\charl\AppData\Local\Temp\RSPC5B7.tmp" 
+Creating temporary file "C:\Users\charl\AppData\Local\Temp\RSPC5C7.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/phc25.pdb" /machine:I386 /out:"../../phc25.exe" 
 .\Release\debug.obj
@@ -28,10 +39,22 @@ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32
 .\Release\z80diag.obj
 .\Release\win32.res
 ]
-Creating command line "link.exe @C:\Users\charl\AppData\Local\Temp\RSPF056.tmp"
+Creating command line "link.exe @C:\Users\charl\AppData\Local\Temp\RSPC5C7.tmp"
 <h3>Output Window</h3>
+Compiling resources...
 Compiling...
+debug.cpp
+main.cpp
+memory.cpp
 monitor.cpp
+psg.cpp
+screen.cpp
+sound.cpp
+system.cpp
+win32.cpp
+z80.cpp
+z80diag.cpp
+Generating Code...
 Linking...
 
 
